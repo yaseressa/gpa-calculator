@@ -3,4 +3,4 @@
  
 >__NOTE__ :  this was made by using university of hageisa's grading system
 
-```link to the actual site [click here](https://uoh-ggen.netlify.app/)```
+`link to the actual site [click here](https://uoh-ggen.netlify.app/)`
