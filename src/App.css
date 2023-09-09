@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Fredoka One", cursive;
+}
+body {
+  background-color: #dfc9a8;
+  overflow-x: hidden;
+}
+body > div {
+  position: absolute;
+  width: 100%;
+  height: 812px;
+}
+#great {
+  position: absolute;
+  width: 100%;
+  height: 81px;
+  left: 0px;
+  top: 0px;
+  background: #203657;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 12px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 200px;
+  font-size: 24px;
+  line-height: 45px;
+  color: #dfc9a8;
+}
+#bodier {
+  position: absolute;
+  width: 100%;
+  top: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#bgreat {
+  position: absolute;
+  width: 358px;
+  height: 644px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#bgreat label h4 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #dfc9a8;
+  text-align: center;
+  width: 100%;
+  background: #203657;
+  height: 20px;
+  padding-top: 2px;
+  margin-top: 2px;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+  letter-spacing: 3px;
+  font-variant: small-caps;
+}
+#bgreat label div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: -2%;
+  margin-bottom: 2%;
+}
+#bgreat label div .read {
+  width: 117px;
+  height: 34px;
+  left: 232px;
+  top: 141px;
+  background: #203657;
+  border-radius: 7px;
+  color: white;
+}
+#bgreat label input {
+  width: 153px;
+  height: 20px;
+  left: 32px;
+  top: 155px;
+  background: #c4c4c4;
+  border: 0;
+  border-radius: 7px;
+
+  text-align: center;
+}
+#bbut {
+  position: absolute;
+  width: 218px;
+  height: 34px;
+  left: 74px;
+  top: 470px;
+
+  font-weight: 500;
+  font-size: 1.5em;
+  background: #dfc9a8;
+  color: white;
+  border-radius: 7px;
+  border: 0;
+}
+#bbut:hover,
+#bbut:focus {
+  background: #be904b;
+  transition: background 0.2s ease-in-out;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: box-shadow 0.09s linear;
+}
+#ttg {
+  position: absolute;
+  width: 338px;
+  height: 53px;
+  left: 14px;
+  top: 80%;
+  background: #203657;
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-between;
+}
+#ttg h1 {
+  color: #fff;
+  padding: 7px;
+}
+#ttg input {
+  width: 81px;
+  height: 39px;
+  left: 257px;
+  top: 617px;
+  background: #ffffff;
+  border-radius: 7px;
+  margin: 5px;
+  margin-right: 15px;
+  border: 0;
+
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+#ttgl {
+  position: absolute;
+  width: 338px;
+  height: 53px;
+  left: 14px;
+  top: 89%;
+  background: #203657;
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-between;
+
+  text-align: center;
+  font-weight: bold;
+}
+#ttgl h1 {
+  color: #fff;
+  padding: 7px;
+  font-size: larger;
+  padding-top: 12px;
+}
+#ttgl input {
+  width: 200px;
+  height: 39px;
+  left: 257px;
+  top: 617px;
+  background: #ffffff;
+  border-radius: 7px;
+  margin: 5px;
+  margin-right: 15px;
+  border: 0;
+
+  text-align: center;
+  font-weight: bold;
+}
+#fgreat {
+  position: absolute;
+  width: 100dvw;
+  height: 7%;
+  bottom: 0%;
+  font-family: "Rockwell";
+  background: #203657;
+  border-radius: 15px 15px 0px 0px;
+  color: #dfc9a8;
+}
+#fgreat h2 {
+  padding: 6px;
+  text-align: center;
+}
